@@ -6,4 +6,5 @@ libraryDependencies ++= Seq(
   "org.webjars.npm" % "coffee-script" % "1.12.7",
   "org.webjars" % "mkdirp" % "0.5.0"
 )
+
 addSbtJsEngine("1.2.1")
