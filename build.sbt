@@ -8,6 +8,7 @@ libraryDependencies ++= Seq(
 )
 
 //addSbtJsEngine("1.3.2-SNAPSHOT")
-addSbtPlugin("com.typesafe.sbt" % "sbt-js-engine" % "1.3.2-SNAPSHOT")
 
 publishMavenStyle := true
+
+addSbtPlugin("com.typesafe.sbt" % "sbt-js-engine" % "1.3.2-SNAPSHOT")
