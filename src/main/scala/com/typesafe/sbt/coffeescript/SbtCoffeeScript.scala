@@ -84,7 +84,7 @@ object SbtCoffeeScript extends AutoPlugin {
                 logger.error(s"transpile plugin: IncludeModules is not exists at ${sourseDir.getAbsolutePath}")
 
             IO.writeLines(distinationDir, index, StandardCharsets.UTF_8, false)
-            logger debug "Index File for coffeeScript meked."
+            logger debug "Index File for coffeeScript maked."
         }
 
         Seq()
