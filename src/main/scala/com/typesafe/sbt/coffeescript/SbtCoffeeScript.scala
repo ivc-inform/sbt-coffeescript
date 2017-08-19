@@ -10,7 +10,7 @@ import spray.json.{JsBoolean, JsObject}
 object Import {
 
     object CoffeeScriptKeys {
-        val coffeeScript = TaskKey[Seq[File]]("coffeescript", "Invoke the CoffeeScript compiler.")
+        val coffeeScript = TaskKey[Seq[File]]("coffeeScript", "Invoke the CoffeeScript compiler.")
         val makeIndexFile = TaskKey[Seq[File]]("makeIndexFile", "")
 
         val bare = SettingKey[Boolean]("coffeescript-bare", "Compiles JavaScript that isn't wrapped in a function.")
