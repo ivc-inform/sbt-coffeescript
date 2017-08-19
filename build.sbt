@@ -7,4 +7,4 @@ libraryDependencies ++= Seq(
   "org.webjars" % "mkdirp" % "0.5.0"
 )
 
-addSbtJsEngine("1.2.1")
+addSbtJsEngine("1.2.2-SNAPSHOT")
