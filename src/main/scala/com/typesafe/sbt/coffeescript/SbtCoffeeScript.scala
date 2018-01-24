@@ -15,7 +15,7 @@ object Import {
 
         val bare = SettingKey[Boolean]("coffeescript-bare", "Compiles JavaScript that isn't wrapped in a function.")
         val sourceMap = SettingKey[Boolean]("coffeescript-source-map", "Outputs a v3 sourcemap.")
-        val writeIncludeModules = SettingKey[Boolean]("Записывать ли файл-список генеренных JS-ков из CoffeeScript ов", "")
+        val writeIncludeModules = SettingKey[Boolean]("write-include-modules", "записывать ли файл-список генеренных JS-ков из CoffeeScript ов")
         val indexFileName = settingKey[String]("JavaScript index file name")
     }
 
